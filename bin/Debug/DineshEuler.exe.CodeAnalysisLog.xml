@@ -4,21 +4,21 @@
  <Namespaces>
   <Namespace Name="DineshEuler">
    <Messages>
-    <Message Id="Dinesh" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="Breaking">
+    <Message Id="Dinesh" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="Breaking">
      <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dinesh' in namespace name 'DineshEuler'.</Issue>
     </Message>
    </Messages>
   </Namespace>
  </Namespaces>
  <Targets>
-  <Target Name="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler\bin\Debug\DineshEuler.exe">
+  <Target Name="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler\bin\Debug\DineshEuler.exe">
    <Modules>
     <Module Name="dinesheuler.exe">
      <Messages>
-      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="NonBreaking">
+      <Message TypeName="AssembliesShouldHaveValidStrongNames" Category="Microsoft.Design" CheckId="CA2210" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
        <Issue Name="NoStrongName" Certainty="95" Level="CriticalError">Sign 'DineshEuler.exe' with a strong name key.</Issue>
       </Message>
-      <Message Id="Dinesh" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="Breaking">
+      <Message Id="Dinesh" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="Breaking">
        <Issue Name="Assembly" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Dinesh' in assembly name 'DineshEuler.exe'.</Issue>
       </Message>
      </Messages>
@@ -29,72 +29,72 @@
          <Members>
           <Member Name="#.ctor(System.Byte[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="348">In externally visible method 'BigInteger.BigInteger(byte[])', validate parameter 'array' before using it.</Issue>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="348">In externally visible method 'BigInteger.BigInteger(byte[])', validate parameter 'array' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#op_Addition(DineshEuler.BigInteger,DineshEuler.BigInteger)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="566">In externally visible method 'BigInteger.operator +(BigInteger, BigInteger)', validate parameter 'leftSide' before using it.</Issue>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="566">In externally visible method 'BigInteger.operator +(BigInteger, BigInteger)', validate parameter 'leftSide' before using it.</Issue>
             </Message>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="566">In externally visible method 'BigInteger.operator +(BigInteger, BigInteger)', validate parameter 'rightSide' before using it.</Issue>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="566">In externally visible method 'BigInteger.operator +(BigInteger, BigInteger)', validate parameter 'rightSide' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#op_BitwiseAnd(DineshEuler.BigInteger,DineshEuler.BigInteger)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1047">In externally visible method 'BigInteger.operator &amp;(BigInteger, BigInteger)', validate parameter 'leftSide' before using it.</Issue>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1047">In externally visible method 'BigInteger.operator &amp;(BigInteger, BigInteger)', validate parameter 'leftSide' before using it.</Issue>
             </Message>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1047">In externally visible method 'BigInteger.operator &amp;(BigInteger, BigInteger)', validate parameter 'rightSide' before using it.</Issue>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1047">In externally visible method 'BigInteger.operator &amp;(BigInteger, BigInteger)', validate parameter 'rightSide' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#op_BitwiseOr(DineshEuler.BigInteger,DineshEuler.BigInteger)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1063">In externally visible method 'BigInteger.operator |(BigInteger, BigInteger)', validate parameter 'leftSide' before using it.</Issue>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1063">In externally visible method 'BigInteger.operator |(BigInteger, BigInteger)', validate parameter 'leftSide' before using it.</Issue>
             </Message>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1063">In externally visible method 'BigInteger.operator |(BigInteger, BigInteger)', validate parameter 'rightSide' before using it.</Issue>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1063">In externally visible method 'BigInteger.operator |(BigInteger, BigInteger)', validate parameter 'rightSide' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#op_ExclusiveOr(DineshEuler.BigInteger,DineshEuler.BigInteger)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1079">In externally visible method 'BigInteger.operator ^(BigInteger, BigInteger)', validate parameter 'leftSide' before using it.</Issue>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1079">In externally visible method 'BigInteger.operator ^(BigInteger, BigInteger)', validate parameter 'leftSide' before using it.</Issue>
             </Message>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1079">In externally visible method 'BigInteger.operator ^(BigInteger, BigInteger)', validate parameter 'rightSide' before using it.</Issue>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1079">In externally visible method 'BigInteger.operator ^(BigInteger, BigInteger)', validate parameter 'rightSide' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#op_Modulus(DineshEuler.BigInteger,DineshEuler.BigInteger)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="50" Level="Error" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="998">Provide a method named 'Mod' as a friendly alternate for operator 'BigInteger.operator %(BigInteger, BigInteger)'.</Issue>
+            <Message TypeName="OperatorOverloadsHaveNamedAlternates" Category="Microsoft.Usage" CheckId="CA2225" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="50" Level="Error" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="998">Provide a method named 'Mod' as a friendly alternate for operator 'BigInteger.operator %(BigInteger, BigInteger)'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#op_OnesComplement(DineshEuler.BigInteger)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1095">In externally visible method 'BigInteger.operator ~(BigInteger)', validate parameter 'leftSide' before using it.</Issue>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="1095">In externally visible method 'BigInteger.operator ~(BigInteger)', validate parameter 'leftSide' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#op_Subtraction(DineshEuler.BigInteger,DineshEuler.BigInteger)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="619">In externally visible method 'BigInteger.operator -(BigInteger, BigInteger)', validate parameter 'leftSide' before using it.</Issue>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="619">In externally visible method 'BigInteger.operator -(BigInteger, BigInteger)', validate parameter 'leftSide' before using it.</Issue>
             </Message>
-            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="DependsOnFix">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="619">In externally visible method 'BigInteger.operator -(BigInteger, BigInteger)', validate parameter 'rightSide' before using it.</Issue>
+            <Message Id="1" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="619">In externally visible method 'BigInteger.operator -(BigInteger, BigInteger)', validate parameter 'rightSide' before using it.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -104,29 +104,29 @@
          <Members>
           <Member Name="#.cctor()" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="90" Level="CriticalWarning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="49">Initialize all static fields in 'DigitsArray' when those fields are declared and remove the explicit static constructor.</Issue>
+            <Message TypeName="InitializeReferenceTypeStaticFieldsInline" Category="Microsoft.Performance" CheckId="CA1810" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="90" Level="CriticalWarning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="49">Initialize all static fields in 'DigitsArray' when those fields are declared and remove the explicit static constructor.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#AllBits" Kind="Field" Static="True" Accessibility="Assembly" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="UseLiteralsWhereAppropriate" Category="Microsoft.Performance" CheckId="CA1802" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="NonBreaking">
+            <Message TypeName="UseLiteralsWhereAppropriate" Category="Microsoft.Performance" CheckId="CA1802" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="Warning">Field 'DigitsArray.AllBits' is declared as 'static readonly' but is initialized with a constant value '-1'. Mark this field as 'const' instead.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#CopyFrom(System.UInt32[],System.Int32,System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
            <Messages>
-            <Message Id="offset" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="69">Parameter 'offset' of 'DigitsArray.CopyFrom(uint[], int, int, int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            <Message Id="offset" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="69">Parameter 'offset' of 'DigitsArray.CopyFrom(uint[], int, int, int)' is never used. Remove the parameter or use it in the method body.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ShiftLeft(System.Int32)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="178">'DigitsArray.ShiftLeft(int)' appears to have no upstream public or protected callers.</Issue>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="BigInteger.cs" Line="178">'DigitsArray.ShiftLeft(int)' appears to have no upstream public or protected callers.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -134,25 +134,46 @@
         </Type>
         <Type Name="Problem2" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
          <Messages>
-          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="NonBreaking">
+          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
            <Issue Certainty="75" Level="Warning">'Problem2' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#Fibonacci(DineshEuler.Problem2+SumType)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
            <Messages>
-            <Message Id="System.Convert.ToUInt64(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="NonBreaking">
-             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="Problem2.cs" Line="29">Because the behavior of 'Convert.ToUInt64(object)' could vary based on the current user's locale settings, replace this call in 'Problem2.Fibonacci(Problem2.SumType)' with a call to 'Convert.ToUInt64(object, IFormatProvider)'. If the result of 'Convert.ToUInt64(object, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="Problem2.cs" Line="21">'Problem2.Fibonacci(Problem2.SumType)' appears to have no upstream public or protected callers.</Issue>
+            </Message>
+            <Message Id="System.Convert.ToUInt64(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="Problem2.cs" Line="29">Because the behavior of 'Convert.ToUInt64(object)' could vary based on the current user's locale settings, replace this call in 'Problem2.Fibonacci(Problem2.SumType)' with a call to 'Convert.ToUInt64(object, IFormatProvider)'. If the result of 'Convert.ToUInt64(object, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#ShowFibonnaci(DineshEuler.Problem2+SumType)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="NonBreaking">
-             <Issue Certainty="75" Level="Warning" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="Problem2.cs" Line="58">'Problem2.ShowFibonnaci(Problem2.SumType)' appears to have no upstream public or protected callers.</Issue>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="Problem2.cs" Line="58">'Problem2.ShowFibonnaci(Problem2.SumType)' appears to have no upstream public or protected callers.</Issue>
             </Message>
-            <Message Id="System.Convert.ToUInt64(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-01-31 13:52:31Z" FixCategory="NonBreaking">
-             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="c:\users\dineshs2\documents\visual studio 2010\Projects\DineshEuler\DineshEuler" File="Problem2.cs" Line="63">Because the behavior of 'Convert.ToUInt64(object)' could vary based on the current user's locale settings, replace this call in 'Problem2.ShowFibonnaci(Problem2.SumType)' with a call to 'Convert.ToUInt64(object, IFormatProvider)'. If the result of 'Convert.ToUInt64(object, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            <Message Id="System.Convert.ToUInt64(System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="Problem2.cs" Line="63">Because the behavior of 'Convert.ToUInt64(object)' could vary based on the current user's locale settings, replace this call in 'Problem2.ShowFibonnaci(Problem2.SumType)' with a call to 'Convert.ToUInt64(object, IFormatProvider)'. If the result of 'Convert.ToUInt64(object, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Problem4" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#IsPalindrome(System.Int32)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Int32.ToString" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="Problem4.cs" Line="37">Because the behavior of 'int.ToString()' could vary based on the current user's locale settings, replace this call in 'Problem4.IsPalindrome(int)' with a call to 'int.ToString(IFormatProvider)'. If the result of 'int.ToString(IFormatProvider)' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#LargestSixDigitPalindrome()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2013-03-07 18:33:36Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\dineshs2\Documents\Visual Studio 2010\Projects\DineshEuler\DineshEuler" File="Problem4.cs" Line="11">'Problem4.LargestSixDigitPalindrome()' appears to have no upstream public or protected callers.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -241,6 +262,7 @@
    <Name>Specify IFormatProvider</Name>
    <Description>If an overload exists that takes an IFormatProvider argument, it should always be called in favor of an overload that does not. Some methods in the runtime convert a value to or from a string representation and take a string parameter that contains one or more characters, called format specifiers, which indicate how the value is to be converted. If the meaning of the format specifier varies by culture, a formatting object supplies the actual characters used in the string representation. In scenarios where sorting and comparison behavior should never change between cultures, specify CultureInfo.InvariantCulture, otherwise, specify CultureInfo.CurrentCulture.</Description>
    <Resolution Name="IFormatProviderAlternate">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be based on input from the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify {4}.</Resolution>
+   <Resolution Name="IFormatProviderAlternateString">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify {4}.</Resolution>
    <Owner />
    <Url>http://msdn.microsoft.com/library/ms182190(VS.100).aspx</Url>
    <Email>[none]</Email>

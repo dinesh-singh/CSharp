@@ -30,19 +30,25 @@ namespace DineshEuler
         //}
 
 
+        //static void Main()
+        //{
+        //    //foreach (var item in Problem2.ShowFibonnaci(Problem2.SumType.Even))
+        //    //{
+        //    //    Console.Write(item + ",");
+        //    //}
+
+        //    //Console.ReadLine();
+        //    //Console.WriteLine();
+
+
+        //    Console.WriteLine(Problem2.Fibonacci(Problem2.SumType.Even));
+        //    Console.ReadLine();
+        //}
+
         static void Main()
         {
-            //foreach (var item in Problem2.ShowFibonnaci(Problem2.SumType.Even))
-            //{
-            //    Console.Write(item + ",");
-            //}
-
-            //Console.ReadLine();
-            //Console.WriteLine();
-
-
-            Console.WriteLine(Problem2.Fibonacci(Problem2.SumType.Even));
-            Console.ReadLine();
+            Console.Write(Problem4.IsPalindrome(9009));
+            Console.Read();
         }
 
     }
